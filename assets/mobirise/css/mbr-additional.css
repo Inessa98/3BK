@@ -2268,6 +2268,29 @@ body {
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
 }
+.cid-rigvMMM4nE {
+  background: #ffffff;
+}
+.cid-rigvMMM4nE .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-rigvMMM4nE .mbr-figure {
+  margin: 0 auto;
+}
+.cid-rigvMMM4nE figcaption {
+  position: relative;
+}
+.cid-rigvMMM4nE figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rigvMMM4nE .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rhdv2f9flg .navbar {
   background: #fff900;
   transition: none;
