@@ -1776,7 +1776,7 @@ body {
 .cid-rhe1kU1PAI {
   padding-top: 105px;
   padding-bottom: 90px;
-  background-image: url("../../../assets/images/3-compositie.gif");
+  background-image: url("../../../assets/images/3-compositie.jpg");
 }
 .cid-rhe1kU1PAI .mbr-figure {
   margin: 0 auto;
@@ -2665,44 +2665,44 @@ body {
 .cid-rhdv2f9flg .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-rhIrJWm6wa {
-  padding-top: 135px;
-  padding-bottom: 0px;
+.cid-rif1cxKz4z {
+  padding-top: 90px;
+  padding-bottom: 75px;
   background-color: #000000;
 }
-.cid-rhIrJWm6wa .mbr-slider .carousel-control {
+.cid-rif1cxKz4z .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-rhIrJWm6wa .mbr-slider .carousel-control-prev {
+.cid-rif1cxKz4z .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-rhIrJWm6wa .mbr-slider .carousel-control-next {
+.cid-rif1cxKz4z .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-rhIrJWm6wa .mbr-slider .modal-body .close {
+.cid-rif1cxKz4z .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-rhIrJWm6wa .mbr-gallery-item > div::before {
+.cid-rif1cxKz4z .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
-  background: #fff900;
+  background: #ba8ffd;
   opacity: 0;
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
 }
-.cid-rhIrJWm6wa .mbr-gallery-item > div:hover .mbr-gallery-title::before {
+.cid-rif1cxKz4z .mbr-gallery-item > div:hover .mbr-gallery-title::before {
   background: transparent !important;
 }
-.cid-rhIrJWm6wa .mbr-gallery-item > div:hover:before {
+.cid-rif1cxKz4z .mbr-gallery-item > div:hover:before {
   opacity: 1 !important;
 }
-.cid-rhIrJWm6wa .mbr-gallery-title {
+.cid-rif1cxKz4z .mbr-gallery-title {
   font-size: .9em;
   position: absolute;
   display: block;
@@ -2712,7 +2712,7 @@ body {
   color: #fff;
   z-index: 2;
 }
-.cid-rhIrJWm6wa .mbr-gallery-title:before {
+.cid-rif1cxKz4z .mbr-gallery-title:before {
   content: " ";
   width: 100%;
   height: 100%;
@@ -2720,7 +2720,7 @@ body {
   left: 0;
   z-index: -1;
   position: absolute;
-  background: #fff900 !important;
+  background: #ba8ffd !important;
   opacity: 1;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
