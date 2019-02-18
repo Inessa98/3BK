@@ -3817,30 +3817,7 @@ body {
   }
 }
 .cid-rirKmgjG8Z {
-  padding-top: 60px;
-  padding-bottom: 105px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-image: url("../../../assets/images/3-compositie.jpg");
-}
-.cid-rirKUqGTkW {
-  background: #ffffff;
-}
-.cid-rirKUqGTkW .image-block {
-  margin: auto;
-  width: 100% !important;
-}
-.cid-rirKUqGTkW .mbr-figure {
-  margin: 0 auto;
-}
-.cid-rirKUqGTkW figcaption {
-  position: relative;
-}
-.cid-rirKUqGTkW figcaption div {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-@media (max-width: 768px) {
-  .cid-rirKUqGTkW .image-block {
-    width: 100% !important;
-  }
 }
