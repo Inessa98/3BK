@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Inessa Dobbelaere",
-    "currentPage": "index.html",
+    "currentPage": "Textile.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -45,7 +45,7 @@
     "cookiesAlert": "We use cookies to give you the best experience. Read our <a href='privacy.html'>cookie policy</a>.",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-126730134-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-126730134-1');\r\n</script>\r\n\r\n",
     "siteUrl": "undefined",
-    "uniqCompNum": 27,
+    "uniqCompNum": 30,
     "versionPublish": "4.8.3",
     "screenshot": "screenshot.png"
   },
@@ -1262,6 +1262,48 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        },
+        {
+          "_styles": {
+            "background": "@bgColor",
+            "& when (@fullWidth = false)": {
+              "padding-top": "(@paddingTop * 15px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@gradientBg)": {
+              "background": "linear-gradient(45deg, @bgColor, @color2)"
+            },
+            ".image-block": {
+              "margin": "auto",
+              "& when (@fullWidth)": {
+                "width": "100% !important"
+              }
+            },
+            ".mbr-figure": {
+              "margin": "0 auto"
+            },
+            "figcaption": {
+              "position": "relative",
+              "div": {
+                "position": "absolute",
+                "bottom": "0",
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".image-block": {
+                "width": "100% !important"
+              }
+            }
+          },
+          "_name": "image2",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked>\n\n        <input type=\"range\" inline title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Toon tekst\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Breedte\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#ffffff\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Verloop\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Kleur 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n            <img src=\"@PROJECT_PATH@/assets/images/tilburg.jpg\" alt=\"Mobirise\" title>\n            <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\">\n                    Maak knappe websites!\n                </div>\n            </figcaption>\n        </div>\n    </figure>\n</section>",
+          "_cid": "rpXQtd4qed",
+          "_anchor": "image2-r",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
         }
       ]
     },
@@ -1900,12 +1942,12 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Geweldige",
+                "tags": "Sympathieke",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/4-dsc0180.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/4-dsc0180-800x1008.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4-800x550.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -1917,8 +1959,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/3.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/3-800x954.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4-800x550.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -1926,25 +1968,12 @@
                 "active": false
               },
               {
-                "tags": "Creatieve",
+                "tags": "Sympathieke",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/8-2.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/8-2-800x893.jpg",
-                "alt": "",
-                "title": "",
-                "customStyle1": "display-7",
-                "caption": "Onderschrift hier",
-                "active": false
-              },
-              {
-                "tags": "Creatieve",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1-800x1244.jpg",
+                "image": "@PROJECT_PATH@/assets/images/4.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/4-800x550.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2024,7 +2053,7 @@
             }
           },
           "_name": "gallery3",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ba8ffd\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#000000\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\"></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Volle breedte\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Boven\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Onder\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"color\" title=\"Dekkleur\" name=\"overlayColor\" value=\"#ba8ffd\">\n        <input type=\"checkbox\" title=\"Overlay met kleurovergang\" name=\"gradOverlay\">\n        <input type=\"color\" title=\"Overlay kleur 1\" name=\"overlayColor2\" value=\"#45505b\" condition=\"gradOverlay\">\n        <input type=\"range\" title=\"Overlay kleur 2\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"1\" inline>\n        <input type=\"color\" title=\"Achtergrondkleur\" name=\"bgColor\" value=\"#000000\">\n\n        <input type=\"gallery\" title=\"Galerij\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"4\"></div>\n    </div>\n\n</section>",
           "_cid": "rif1cxKz4z",
           "_anchor": "gallery3-c",
           "_protectedParams": [
@@ -2058,8 +2087,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc0111-kopie-1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc0111-kopie-1-800x721.jpg",
+                "image": "@PROJECT_PATH@/assets/images/2.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/2-800x388.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2071,8 +2100,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc0126-1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc0126-1-800x530.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3-1-800x388.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2080,12 +2109,25 @@
                 "active": false
               },
               {
-                "tags": "Bewegende",
+                "tags": "Creatieve",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc0144-1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc0144-1-800x1208.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3-1-800x388.jpg",
+                "alt": "",
+                "title": "",
+                "customStyle1": "display-7",
+                "caption": "Onderschrift hier",
+                "active": false
+              },
+              {
+                "tags": "Creatieve",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/3-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3-1-800x388.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2110,8 +2152,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc0104jjnzjn-1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc0104jjnzjn-1-800x356.jpg",
+                "image": "@PROJECT_PATH@/assets/images/1-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1-1-800x710.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2119,12 +2161,12 @@
                 "active": false
               },
               {
-                "tags": "Sympathieke",
+                "tags": "Geweldige",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc0106-1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc0106-1-800x1208.jpg",
+                "image": "@PROJECT_PATH@/assets/images/3-dsc0180.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/3-dsc0180-800x1008.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",
@@ -2132,12 +2174,12 @@
                 "active": true
               },
               {
-                "tags": "Bewegende",
+                "tags": "Geweldige",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dsc0092-1.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dsc0092-1-800x1208.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dsc0111-kopie-1.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc0111-kopie-1-800x721.jpg",
                 "alt": "",
                 "title": "",
                 "customStyle1": "display-7",

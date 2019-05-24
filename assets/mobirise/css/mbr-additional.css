@@ -2372,6 +2372,29 @@ body {
     width: 100% !important;
   }
 }
+.cid-rpXQtd4qed {
+  background: #ffffff;
+}
+.cid-rpXQtd4qed .image-block {
+  margin: auto;
+  width: 100% !important;
+}
+.cid-rpXQtd4qed .mbr-figure {
+  margin: 0 auto;
+}
+.cid-rpXQtd4qed figcaption {
+  position: relative;
+}
+.cid-rpXQtd4qed figcaption div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .cid-rpXQtd4qed .image-block {
+    width: 100% !important;
+  }
+}
 .cid-rhdv2f9flg .navbar {
   background: #fff900;
   transition: none;
@@ -2891,7 +2914,7 @@ body {
 }
 .cid-rif1cxKz4z {
   padding-top: 0px;
-  padding-bottom: 75px;
+  padding-bottom: 0px;
   background-color: #000000;
 }
 .cid-rif1cxKz4z .mbr-slider .carousel-control {
